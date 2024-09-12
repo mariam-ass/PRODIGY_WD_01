@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+main {
+    margin-top: 10px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.scroll {
+    background-color: gray !important;
+}
+
+.change-color {
+    color : black !important;
+} 
+
+.change-color:hover {
+    color : red !important;
+}
